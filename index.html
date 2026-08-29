@@ -7,13 +7,14 @@
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <header>
+  <header id="Home">
     <h1>Rohit singh</h1>
     <p>Frontened Developer & lifelong Learner</p>
     <nav>
       <a href="#about">About</a>
       <a href="#project">Projects</a>
       <a href="#contact">Contact</a>
+      <a href="#education">Educations</a>
     </nav>
   </header>
 
@@ -22,31 +23,32 @@
     <section id="about">
       <h2>About Me</h2>
 
-      <div>
-        <img src="WhatsApp Image 2026-06-09 at 21.53.20.jpeg" width="200px" height="200px" alt="">
-        <p>That's me at my first task</p>
-      </div>
+      <figure>
+        <img src="Image.jpeg" width="200px" height="200px" alt="">
+        <figcaption>That's me at my first task!</figcaption>
+      </figure>
 
-      <p>
-        Hi! I am Rohit singh,a passionate frontened developer learning
-        to build real-world products.I am currently learning backened.
+      <p id="intro">
+        Hi! I am <strong>Rohit singh </strong>B.Tech CS student interested in web development. I enjoy creating  responsive website and learning new
+        technologies. currently, I'm working on improving my Javascript skills and exploring React and backened development.
+        And also learning Data Structure and Algorithm with C++.
       </p>
 
     </section>
 
     <section id="project">
       <h2>My Projects </h2>
-      <div>
+      <div id="project-view">
         <div>
 
           <h3>
-          Project One:Portfolio website
+          Project One:YouTube-clone
           </h3>
           <p>
-          A simple personal portfolio built with <strong>HTML & CSS.</strong>
+          A simple clone built with <strong>HTML & CSS.</strong>
           </p>
           <button>
-          <span>Veiw on GitHub</span>
+          <a href="https://github.com/rohitsingh2020rdd-a11y/youtube-clone" style="color:white; font-weight: bold; text-decoration: none;">Veiw on GitHub</a>
           </button>
 
         </div>
@@ -59,34 +61,56 @@
           A simple blog website built with <strong>HTML & CSS.</strong>
           </p>
           <button>
-          <span>Veiw on GitHub</span>
+           <a href="https://github.com/rohitsingh2020rdd-a11y/Blogs_website" style="color:white; font-weight: bold; text-decoration: none;">Veiw on GitHub</a>
           </button>
 
         </div>
 
       </div>
 
-      <div>
+      <div id="skill">
         <h2>Skills</h2>
+        <h3>#Frontened</h3>
         <span>HTML</span>
         <span>CSS</span>
         <span>Javascript</span>
-      </div>
-      <div>
-        <h2>Education</h2>
-        <ul>
-          <li>  Passed High school from <strong>UP BOARD</strong> with 82 Percent.</li>
-          <li>Padded Intermediate from <strong>UP BOARD</strong> with 83 percent.</li>
-          <li> Also Qualify jee mains exam.</li>
-        </ul>
-       
+        <h3>#Tools</h3>
+        <span>Git</span>
+        <span>GitHub</span>
+        <span>VS Code</span>
+        <h3>#Programming</h3>
+        <span> C </span>
+        <span>C++</span>
+        <span>OOP'S</span>
+        <span>SQL</span>
       </div>
       
     </section>
      
-    <section id="intro">
-      <h2>Watch My Intro</h2>
-      <video src="" controls height="200px" width="330px"></video>
+    <section id="education">
+      <h2>Educations</h2>
+      <div class="btech-card">
+       <h3>B.Tech - computer Science & Engineering</h3>
+       <li>Ajay kumar garg Engineering college</li>
+       <li>2025 - 2029</li>
+       <li> CGPA: 8.6/10 </li>
+      </div>
+
+      <div class="xii-card">
+        <h3>Class XII</h3>
+        <li>Maa shri Vindhyavasini inter college</li>
+        <li>2024</li>
+        <li>Percentage: 83%</li>
+      </div>
+
+      <div class="x-card">
+        <h3>Class X</h3>
+        <li>Maa shri Vindhyavasini inter college</li>
+        <li>2021</li>
+        <li>Percentage: 81%</li>
+      </div>
+      <br>
+      <li><b>Also cleared JEE Mains exam with 92 Percentile.</b></li>
     </section>
 
 
@@ -96,21 +120,35 @@
     <h2>
       Contact Me
     </h2>
-    <p>Email:<a href="#">rohitsingh2020rdd@gmail.com</a></p> 
-    <p>Phone:<a href="#">+91 9450998875</a></p>
-    <label for="name">Name:</label>
-    <input type="text" id="name" placeholder="Enter your Name"> <br> <br>
-    <label for="email">Email:</label>
-    <input type="email" id="email" placeholder="Enter your email">
-    <legend>Message:</legend>
-    <textarea name="message" id="text" cols="50" rows="10"></textarea>
-    <button>
+    <p>Email:<a href="mailto:rohitsingh2020rdd@gmail.com">rohitsingh2020rdd@gmail.com</a></p> 
+    <p>Phone:<a href="tel:+91 945099XXXX">+91 945099XXXX</a></p>
+    <form action="">
+
+     <label for="name">Name:</label>
+     <input type="text" id="name" placeholder="Enter your Name">
+      <br> 
+
+     <label for="email">Email:</label>
+     <input type="email" id="email" placeholder="Enter your email">
+     <br> 
+
+     <label>Message:</label>
+     <textarea name="message" id="text" cols="50" rows="7"></textarea> 
+     <br> 
+
+     <button>
      Send Message
-    </button>
-    <div>
+     </button>
+    
+    </form>
+     
+    <div id="lower-footer">
       <p># 2026 Rohit singh All rights reserved.</p>
-      <a href="#">Linkdin | GitHub</a>
+      <p>
+        <a href="https://www.linkedin.com/in/rohit-singh-476888382/">Linkdin</a> |<a href="https://github.com/rohitsingh2020rdd-a11y">GitHub</a>
+      </p> 
     </div>
+
   </footer>
 </body>
 </html>
