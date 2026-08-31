@@ -8,14 +8,17 @@ box-sizing: border-box;
 font-family: "poppins",sans-serif;
 }
 body{
- background-color: #f3f3f4;
- 
+ background-color: #0b1120;
+ color: white;
 }
+
 header{
-  background-color: #162134;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #101827;
   color: white;
-  text-align: center;
-  padding: 20px 0;
+  padding:20px 30px;
   position: fixed;
   left: 0;
   right: 0;
@@ -23,13 +26,13 @@ header{
   z-index: 1000;
   
 }
+
 h1{
   color: #38BDF8;
 }
 header p{
   color: #C2CCD8;
   font-size: 17px;
-  padding: 8px 0;
 }
 header nav a{
   display: inline-block;
@@ -45,14 +48,14 @@ header nav a:hover{
   background-color: blue;
 }
 main{
-  margin:250px auto 0 auto;
+  margin:150px auto 0 auto;
   /* background-color: white; */
   max-width: 950px;
 
 
 }
 #about,#project,#education{
-  background-color: white;
+  background-color: #151f33;
   padding: 30px;
   border-radius: 20px;
   margin-bottom:30px;
@@ -72,16 +75,17 @@ main{
 }
 
 #intro{
-   background-color: rgb(247, 244, 244);
+   background-color: #1b2942;
+   color: #cbd5e1;
    padding: 10px;
    border-radius: 15px;
-   border: 1px solid rgb(222, 220, 220);
+   border: 1px solid rgb(28, 64, 129);
 }
 img{
   border-radius: 50%;
   height: 250px;
   width: 250px;
-  border: 2px solid rgb(116, 116, 248);
+  border: 2px solid rgb(56, 56, 101);
   margin: 15px 0;
 
 }
@@ -97,19 +101,19 @@ img:hover{
 }
 #project-view div{
   flex: 1;
-  background-color: rgb(245, 241, 241);
+  background-color:#1b2942;
   border-radius: 15px;
   padding: 17px;
   display: flex;
   flex-direction: column;
   gap: 12px;
-  border: 1px solid rgb(219, 214, 214);
-  box-shadow: 0 0 5px 0px rgb(209, 206, 206);
+  border: 1px solid rgb(31, 43, 91);
+  box-shadow: 0 0 5px 0px rgb(23, 21, 98);
   transition: all 0.5s;
 }
 #project-view div:hover{
   transform:translateY(-3px);
-  box-shadow: 0px 5px 10px rgba(204, 204, 204, 0.934);
+  box-shadow: 0px 5px 10px rgba(30, 82, 110, 0.934);
 }
 
 #project-view button{
@@ -126,13 +130,13 @@ img:hover{
   color: white;
 }
 #education,#project,#about {
-  box-shadow: 0px 0px 10px 2px rgb(118, 118, 118);
+  box-shadow: 0px 0px 10px 2px rgb(37, 24, 94);
 }
 #skill{
-  background-color: rgb(245, 241, 241);
+  background-color: #1b2942;
   padding: 10px;
   border-radius: 15px;
-  box-shadow: 0 0 5px 0px rgb(209, 206, 206);
+  box-shadow: 0 0 5px 0px rgb(36, 87, 150);
   
 }
 #skill h3{
@@ -140,7 +144,7 @@ margin-top:10px;
 
 }
 #skill span{
-  background-color: rgb(237, 241, 241);
+  background-color: rgb(1, 37, 60);
   border-radius: 15px;
   padding: 4px;
   color: #2398ca;
@@ -153,27 +157,27 @@ margin-top:10px;
 }
 .btech-card{
   width:60%;
-  background-color: rgb(246, 243, 243);
+  background-color: #1b2942;
   padding: 20px;
   border-radius: 15px;
-  border:1px solid rgb(235, 232, 232);
-  box-shadow: 0 0 5px rgb(217, 215, 215);
+  border:1px solid rgb(19, 48, 91);
+  box-shadow: 0 0 5px rgb(30, 74, 125);
 }
 .x-card{
   width:60%;
-  background-color: rgb(246, 243, 243);
+  background-color: #1b2942;
   padding: 20px;
   border-radius: 15px;
-  border:1px solid rgb(235, 232, 232);
-  box-shadow: 0 0 5px rgb(217, 215, 215);
+  border:1px solid rgb(23, 48, 110);
+  box-shadow: 0 0 5px rgb(26, 20, 114);
 }
 .xii-card{
   width: 60%;
-  background-color: rgb(246, 243, 243);
+  background-color: #1b2942;
   padding: 20px;
   border-radius: 15px;
-  border:1px solid rgb(235, 232, 232);
-  box-shadow: 0 0 5px rgb(217, 215, 215);
+  border:1px solid rgb(27, 40, 123);
+  box-shadow: 0 0 5px rgb(14, 44, 93);
 }
 footer{
   margin: auto;
@@ -245,12 +249,15 @@ box-shadow: 5px,5px,20px,rgb(69, 202, 247);
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  border-top:1px solid rgb(168, 165, 165);
-  padding: 20px 0;
+ 
+  border-top:1px solid #263653;
+  padding: 25px 30px;
+  width: 100%;
 
 }
 #lower-footer p{
 color: rgba(230, 227, 227,0.5);
+
 }
 @media(max-width:800px){
   #project-view{
